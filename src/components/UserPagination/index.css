@@ -1,0 +1,36 @@
+.pagination-list-container {
+    padding: 0;
+    list-style-type: none;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.pg-btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    background-color: blue;
+    color: #fff;
+    margin-right: 10px;
+}
+@media screen and (min-width: 992px) {
+    .pg-btn { 
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+    }
+}
+.active-page {
+    background-color: #fff;
+    border: 1px solid blue;
+    color: grey;
+}
+.disabled {
+    background-color: grey;
+}

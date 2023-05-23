@@ -1,0 +1,85 @@
+.list-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.table-row-name {
+    width: 15%;
+    font-size: 13px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.table-row-email {
+    width: 30%;
+    font-size: 13px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.table-row-role {
+    width: 12%;
+    font-size: 13px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.btns-container {
+    width: 20%;
+    font-size: 13px;
+    font-weight: 400;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+    .table-row-name {
+        font-size: 18px;
+    }
+    .table-row-email {
+        font-size: 18px;
+    }
+    .table-row-role {
+        font-size: 18px;
+    }
+    .btns-container {
+        font-size: 18px;
+    }
+}
+.edit-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+    background: inherit;
+}
+@media screen and (min-width: 992px) {
+    .edit-btn {
+        font-size: 18px;
+    }
+}
+.delete-btn {
+    border: none;
+    color: red;
+    outline: none;
+    cursor: pointer;
+    background: inherit;
+}
+@media screen and (min-width: 992px) {
+    .delete-btn {
+        font-size: 18px;
+    }
+    .list-item-checkbox {
+       width: 20px;
+       height: 20px;
+    }
+}
+.hr {
+    width: 100%;
+    margin-bottom: 0;
+}
+.tag {
+    margin: 20px 0;
+}
+.modal-btn {
+    text-align: end;
+}
